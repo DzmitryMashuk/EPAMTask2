@@ -73,22 +73,44 @@ namespace EPAMTask2
             if (index > _count)
             {
                 AddLast(item);
-                return;
             }
-            for (int i = 0; i < _count; i++)
+            else
             {
-                if (index.ToString() == _currentItem.Value.ToString())
+                for (int i = 1; i < index; i++)
                 {
-                    item.Prev = _tail;
-                    _tail.Next = item;
+                    _currentItem = _currentItem.Next;
+                }
+
+                if (_currentItem == _head)
+                {
+                    AddFirst(item);
+                }
+                else
+                {
+                    _currentItem.Prev.Next = item;
                     item.Next = _currentItem;
-                    _currentItem.Prev = item;
                     _count++;
                 }
             }
-
-
         }
+        
+        //    if (index > _count)
+        //    {
+        //        AddLast(item);
+        //        return;
+        //    }
+
+        //    IListItem _currentItem = _head;
+            
+        //    for (int i = 0; i < index; i++)
+        //        _currentItem = _currentItem.Next;
+
+        //    item.Prev = _currentItem.Prev;
+        //    _tail.Next = item;
+        //    item.Next = _currentItem;
+        //    _currentItem.Prev = item;
+        //    _count++;
+        //}
         public bool IsEmpty()
         {
             return _count == 0 ? true : false;

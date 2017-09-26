@@ -16,3 +16,9 @@ C:\Users\Дмитрий\Downloads\EPAMTask2\EPAMTask2\bin\Debug\EPAMTask2.pdb
 C:\Users\Дмитрий\Downloads\EPAMTask2\EPAMTask2\obj\Debug\EPAMTask2.csprojResolveAssemblyReference.cache
 C:\Users\Дмитрий\Downloads\EPAMTask2\EPAMTask2\obj\Debug\EPAMTask2.exe
 C:\Users\Дмитрий\Downloads\EPAMTask2\EPAMTask2\obj\Debug\EPAMTask2.pdb
+C:\Users\Дмитрий\Desktop\EPAMTask2\EPAMTask2\bin\Debug\EPAMTask2.exe.config
+C:\Users\Дмитрий\Desktop\EPAMTask2\EPAMTask2\bin\Debug\EPAMTask2.exe
+C:\Users\Дмитрий\Desktop\EPAMTask2\EPAMTask2\bin\Debug\EPAMTask2.pdb
+C:\Users\Дмитрий\Desktop\EPAMTask2\EPAMTask2\obj\Debug\EPAMTask2.csprojResolveAssemblyReference.cache
+C:\Users\Дмитрий\Desktop\EPAMTask2\EPAMTask2\obj\Debug\EPAMTask2.exe
+C:\Users\Дмитрий\Desktop\EPAMTask2\EPAMTask2\obj\Debug\EPAMTask2.pdb
